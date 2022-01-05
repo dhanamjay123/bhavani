@@ -19,7 +19,9 @@ steps
 stage ('sucessfullexcution') 
 {
     steps {
+        node('ramraj'){
         echo "checkout has been done"
+        }        
     }
 
 }
