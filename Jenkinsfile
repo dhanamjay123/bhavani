@@ -1,7 +1,7 @@
 
 pipeline {
 agent {
-label 'Builtserver'
+label 'jenkins004'
 }
 
 stages {
